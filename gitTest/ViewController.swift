@@ -13,10 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemGreen
-        var label: UILabel = {
-            var label = UILabel()
+        let label: UILabel = {
+            let label = UILabel()
             label.translatesAutoresizingMaskIntoConstraints = false
             label.text = "이런"
+            label.font = .systemFont(ofSize: 22, weight: .bold)
             return label
         }()
         
